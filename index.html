@@ -241,17 +241,34 @@
   </p>
 </section>
 
-
 <!-- Fondator -->
-<div style="flex: 1 1 250px; max-width:300px; background-color:#fff; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.1); overflow:hidden; text-align:center; padding:20px; transition:0.3s;">
-  <img src="EMA.jpg" alt="Fondator Luvet French" style="width:100%; border-radius:10px;">
-  <h3 style="font-family:'Arial Black', sans-serif; font-size:24px; text-transform:uppercase; margin:10px 0 5px 0;">FONDATOR SALON</h3>
-  <p style="font-size:18px; font-weight:bold; margin:0 0 15px 0;">Ghiulgian Adin</p>
-  <p style="font-size:14px; color:#333; margin-bottom:15px; text-align:justify;">
-    Sunt Ghiulgian Adin, nail tehnician și fondator Luvet French, iar tot acest proiect s-a născut din pasiune — iubirea pentru detaliu, perfecțiune și eleganță.
-  </p>
-  <a href="https://partner.notino.com/api/b2c/redirect/salons/detail?salonID=392fb65d-45cc-471b-97ca-d7a9cbbf5467" target="_blank" style="display:inline-block; padding:10px 20px; background-color:#d63384; color:#fff; border-radius:5px; text-decoration:none; font-weight:bold; transition:0.3s;">Programează-te</a>
-</div>
+<section id="fondator" style="padding:50px 20px; background-color:#fff0f5; display:flex; justify-content:center; align-items:center;">
+  <div class="card" style="max-width:300px; background-color:#fff; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.1); overflow:hidden; text-align:center; padding:20px; transition:0.3s; position:relative;">
+    
+    <img src="EMA.jpg" alt="Fondator Luvet French" style="width:100%; border-radius:10px;">
+    
+    <div class="card-content">
+      <h4>💫 FONDATOR SALON</h4>
+      <h5>GHIULGIAN ADIN</h5>
+      <p style="text-align:justify;">
+        Sunt Ghiulgian Adin, nail tehnician și fondator Luvet French, iar tot acest proiect s-a născut din pasiune — iubirea pentru detaliu, perfecțiune și eleganță.
+      </p>
+      <a href="https://partner.notino.com/api/b2c/redirect/salons/detail?salonID=392fb65d-45cc-471b-97ca-d7a9cbbf5467" target="_blank" class="btn-programare" style="display:inline-block; padding:10px 20px; background-color:#d63384; color:#fff; border-radius:5px; text-decoration:none; font-weight:bold; transition:0.3s;">
+        Programează-te
+      </a>
+    </div>
+
+    <!-- Efect lumină roz -->
+    <div class="hover-overlay" style="position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(214,51,132,0); transition:0.3s; border-radius:10px;"></div>
+  </div>
+</section>
+
+<style>
+  /* Hover pentru card fondator */
+  #fondator .card:hover .hover-overlay {
+    background: rgba(214,51,132,0.15); /* lumina roz semi-transparentă */
+  }
+</style>
 
 <!-- Echipa -->
 <section id="echipa">
@@ -336,13 +353,17 @@
 </section>
 
 <!-- Contact -->
-<section id="contact">
-  <h2>CONTACT</h2>
-  <div class="contact-box">
+<section id="contact" style="padding:50px 20px; background-color:#fff0f5;">
+  <h2 style="text-align:center; margin-bottom:30px;">CONTACT</h2>
+  <div class="contact-box" style="max-width:500px; margin:0 auto; padding:20px; background-color:#fff; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
+    
     <p>📧 Email: <a href="mailto:salon@luvetfrench.ro" class="contact-link">salon@luvetfrench.ro</a></p>
     <p>📞 Telefon: <a href="tel:+40712345678" class="contact-link">+40 712 345 678</a></p>
     <p>🌐 Facebook: <a href="https://www.facebook.com/share/1FjBwjyubm/?mibextid=wwXIfr" target="_blank" class="contact-link">Luvet French Salon</a></p>
     <p>📸 Instagram: <a href="https://www.instagram.com/ghiulgian.adin?igsh=Z2tncTloNHZncGJw" target="_blank" class="contact-link">@ghiulgian.adin</a></p>
+    <p>📍 Oras: Bistrita, Jud.: Bistrita-Nasaud, Romania</p>
+    <p>🏠 Strada: Albert Berger nr.7</p>
+    
   </div>
 </section>
 
